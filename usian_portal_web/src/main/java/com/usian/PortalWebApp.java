@@ -8,9 +8,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ItemWebApp {
+public class PortalWebApp {
     public static void main(String[] args) {
-        SpringApplication.run(ItemWebApp.class, args);
+        SpringApplication.run(PortalWebApp.class, args);
     }
-
 }
